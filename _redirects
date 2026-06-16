@@ -1,0 +1,6 @@
+# Branded short links → tracked landing page (Cloudflare static-asset redirects)
+# Keep specific paths only — never a catch-all, so / and assets serve normally.
+/li   /?utm_source=linkedin&utm_medium=organic&utm_campaign=ades2026    301
+/ig   /?utm_source=instagram&utm_medium=organic&utm_campaign=ades2026   301
+/yt   /?utm_source=youtube&utm_medium=organic&utm_campaign=ades2026     301
+/go   /?utm_source=social&utm_medium=organic&utm_campaign=ades2026      301
